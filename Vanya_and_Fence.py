@@ -1,4 +1,4 @@
-sums = 0
+total = 0
 n, h = map(int, input().split())  
 k = list(map(int, input().split()))  
 for j in k:  
@@ -6,5 +6,5 @@ for j in k:
         result = 2  
     else:
         result = 1   
-    sums += result
-print(sums)
+    total += result
+print(total)
